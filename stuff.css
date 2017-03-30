@@ -1,0 +1,65 @@
+
+/* colours:
+black: 			#000000
+medium blue: 	#4B688B
+light grey: 	#CCCCCC
+*/
+
+html, body {
+	height: 100%;
+	margin: 0;
+	background: #000000;
+}
+
+body {
+	color: #CCCCCC;
+
+	font-family: 'Roboto Mono', monospace;
+	font-size: 13px;
+}
+
+.mydiv {
+	margin: auto;
+	max-width: 750px;
+	padding: 40px 15px;
+	text-align: left;
+}
+
+.description {
+	padding-bottom: 0px;
+}
+
+.logos {
+	text-align: center;
+}
+
+.logo {
+	margin: 10px;
+	width: 169px; 
+	height: 50px;
+}
+
+hr {
+	border-color: #4B688B;
+	border-width: 2px;
+	margin-top: 0px;
+}
+
+.screenshots {
+	text-align: center;
+}
+
+.screenshot {
+	padding-bottom: 20px;
+}
+
+.img-responsive {
+	border: solid;
+	border-color: #4B688B;
+	border-width: 1px;
+}
+
+.screenlink {
+	display: table;
+	margin: auto
+}
